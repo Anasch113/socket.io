@@ -1,0 +1,108 @@
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: rgb(20, 17, 33);
+}
+
+.container{
+
+  min-height: 100vh;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: row;
+ gap: 30px;
+  
+}
+
+.container-form{
+  display: flex ;
+ 
+  flex-direction: column;
+  padding: 10px;
+  background-color: rgb(43, 29, 75);
+  gap: 5px;
+  min-height: 450px;
+  min-width: 300px;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 10px;
+
+}
+.container-form input{
+  padding: 13px 15px;
+  color: black;
+border-radius: 8px;
+outline: none;
+
+}
+
+.container-form button{
+padding: 8px 10px;
+background-color: transparent;
+color: white;
+width: 30%;
+height: 40px;
+border: none; 
+border: 1px solid white;
+border-radius: 8px;
+cursor: pointer;
+
+}
+.container-form button:hover{
+  background-color: rgb(31, 31, 77);
+}
+.container-form p{
+  color: white;
+  font-size:25px ;
+  font-weight: bold;
+}
+
+
+.form-elem{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+
+  
+}
+.form-elem h2{
+  color: white;
+  font-size: 15px;
+}
+
+.message-container{
+  display: flex;
+  gap: 5px;
+
+  min-width: 200px;
+  min-height: 200px;
+  border: 1px solid white;
+  border-radius: 10px;
+  flex-direction: column;
+  padding: 20px 15px;
+  gap: 20px;
+
+}
+
+.message-container span{
+  padding: 10px;
+  background-color: rgb(12, 12, 23);
+  color: white;
+  border-radius: 30px;
+min-height: 10%;
+max-height: 10%;
+}
+.mess-main{
+  color: white;
+}
+
+.container-form-1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+
+}
